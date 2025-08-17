@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#topo-contato {
+  position: fixed;
+  top: 0;
+  width: 92%;
+  
+  color: white;
+  padding: 1px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1001;
+}
+
+.Contatos {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.icone-whatsapp {
+  height: 24px;
+  vertical-align: middle;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+nav button {
+  padding: 8px 16px;
+  background-color: white;
+  color: #15b5c0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav button:hover {
+  background-color: #e0e0e0;
+}
+
+#imagem-topo {
+  margin-top: 10px;
+  
+
+ 
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.product {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product h2 {
+  margin: 0 0 10px;
+  color: #0379c8;
+}
+
+.product p {
+  font-size: 18px;
+  color: #444;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+}
+
+.about-us {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #0077cc;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8%;
+}
+
+.produtos-section {
+  margin: 30px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.produtos-section button {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#pesquisa {
+  margin: 20px 0;
+  padding: 8px;
+  width: 80%;
+  font-size: 16px;
+}
+
+.product {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.popup-conteudo {
+  background-color: white;
+  margin: 10% auto;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+  position: relative;
+  animation: slideUp 0.3s ease-in-out;
+}
+
+.fechar {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+
+
+
+
+body:not(.pagina-produtos) {
+  background-image: url('img3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.telefone {
+  color: #15b5c0; /*  número de telefone */
+  font-weight: bold;
+}
+
+.email {
+  color: #15b5c0; /* e-mail */
+  font-style: italic;
+}
+
+a:hover .telefone,
+a:hover .email {
+  color: #d32f2f; /* passar o mouse */
+}
+
+
