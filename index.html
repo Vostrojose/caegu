@@ -3,7 +3,7 @@
 <head>
   
   <meta charset="UTF-8">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Service Automation</title>
   <script src="ServiceAutomation.js"></script>
   <link rel="stylesheet" href="ServiceAutomation.css">
@@ -11,11 +11,7 @@
 </head>
 
 <body>
-  
-  
-
-  <!-- Cabeçalho com contatos e botão -->
-   
+  <!-- Cabeçalho com contatos e botão -->  
   <header id="topo-contato">
     <div class="Contatos">
       <img src="Logo.png" alt="Logo da empresa" width="50" height="50">
@@ -24,41 +20,19 @@
          <p class="telefone">55-(11)91417-6406</p>
           <p class="email">E-mail: caegu.vendas@gmail.com </p>
           <a href="#">
-      
-      
-  <span>
+      <span>
     </span>
-  
-
 </a>
-
-  
-
-       
-    <span></span>
-    
+<span></span>
     </div>
-    
     <nav>
       <p><a href="sobre.html">Sobre Nós</a></p>
       <button onclick="Localização()">Localização</button>
       <button onclick="abrirPopup()">Fale Conosco</button>
       <button onclick="mostrarProdutos()">🔍 Ver Produtos à Venda</button> 
-      
-      
-   
-
-   
-      
-      
-      
-    </nav>
+      </nav>
   </header>
-  
-
-   <section class="produtos-section">
-  
-
+  <section class="produtos-section">
   <div id="produtos" style="display: none;">
     <h2>Produtos à Venda</h2>
     <input type="text" id="pesquisa" placeholder="Pesquisar produto..." onkeyup="filtrarProdutos()">
