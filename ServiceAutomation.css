@@ -3,20 +3,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-body:not(.pagina-produtos) {
-  background-image: url('img3.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 
-} 
-@media (max-width: 600px) {
-  body:not(.pagina-produtos) {
-    background-size: contain;
-    background-position: top;
-    background-repeat: no-repeat;
-  }
-}
 
 #topo-contato {
   position: fixed;
@@ -250,6 +237,20 @@ a:hover .email {
   width: 100%;
   max-width: 300px;
   margin: 10px;
+}
+body:not(.pagina-produtos) {
+  background-image: url('img3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+} 
+@media (max-width: 600px) {
+  body:not(.pagina-produtos) {
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
 }
 
 img {
