@@ -3,6 +3,21 @@ body {
   font-family: Arial, sans-serif;
 }
 
+body:not(.pagina-produtos) {
+  background-image: url('img3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+} 
+@media (max-width: 600px) {
+  body:not(.pagina-produtos) {
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+}
+
 #topo-contato {
   position: fixed;
   top: 0;
@@ -211,26 +226,6 @@ input, textarea {
   from { transform: translateY(30px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
 }
-
-
-
-
-
-body:not(.pagina-produtos) {
-  background-image: url('img3.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
-@media (max-width: 600px) {
-  body:not(.pagina-produtos) {
-    background-size: contain;
-    background-position: top;
-    background-repeat: no-repeat;
-  }
-}
-
 .telefone {
   color: #15b5c0; /*  número de telefone */
   font-weight: bold;
