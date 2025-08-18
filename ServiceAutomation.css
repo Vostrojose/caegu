@@ -253,24 +253,5 @@ body:not(.pagina-produtos) {
   }
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 
-@media (max-width: 600px) {
-  header nav {
-    display: block;
-    text-align: center;
-  }
-
-  .Contatos {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .telefone, .email {
-    font-size: 14px;
-  }
-}
 
