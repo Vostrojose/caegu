@@ -245,13 +245,7 @@ body:not(.pagina-produtos) {
   background-position: center;
 
 } 
-@media (max-width: 600px) {
-  body:not(.pagina-produtos) {
-    background-size: contain;
-    background-position: top;
-    background-repeat: no-repeat;
-  }
-}
+
 
 
 
