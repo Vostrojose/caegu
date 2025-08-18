@@ -228,16 +228,7 @@ a:hover .email {
   color: #d32f2f; /* passar o mouse */
 }
 
-.produtos-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.product {
-  width: 100%;
-  max-width: 300px;
-  margin: 10px;
-}
+
 body:not(.pagina-produtos) {
   background-image: url('img3.png');
   background-size: cover;
