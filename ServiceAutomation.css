@@ -9,13 +9,16 @@ body {
   position: fixed;
   top: 0;
   width: 92%;
-  
+  height: 90px; /* ou o valor que preferir */
   color: white;
   padding: 1px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1001;
+  z-index: 1000;
+  
+
+ 
 }
 
 .Contatos {
@@ -230,13 +233,15 @@ a:hover .email {
 
 
 body:not(.pagina-produtos) {
-  background-image: url('img3.png');
+  background-image: url('img5.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+ 
 
-} 
+}
+ 
 img {
   max-width: 600px;
   height: auto;
@@ -266,6 +271,9 @@ img {
   }
 }
 
+#topo-contato {
+  background-color: rgba(127, 7, 37, 0.5); /* branco com 50% de transparência */
+}
 
 
 
